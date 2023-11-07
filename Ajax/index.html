@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+    <title>PRODUCT STORE</title>
+</head>
+<body class="container">
+    <h1>Product List API</h1>
+    <button id="addBtn">Add Product</button>
+    <div id="products">
+        Loading Products...
+    </div>
+
+    <!-- Edit Product Modal -->
+    <div id="editProductModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeEditModal">&times;</span>
+            <h2>Edit Product</h2>
+            <input type="text" id="editTitle" placeholder="Title">
+            <input type="text" id="editPrice" placeholder="Price">
+            <button id="saveEditProduct">Save</button>
+        </div>
+    </div>
+</body>
+</html>

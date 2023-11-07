@@ -1,0 +1,39 @@
+#addBtn{
+    background-color: rgb(10, 178, 122);
+    color: azure;
+    border: none;
+    margin-left: 610px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.edit-button {
+    background-color: orange;
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: red;
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.container{
+    background-color: black;
+    color: rgb(238, 243, 243);
+}
+
+.container h1{
+    margin-left: 560px;
+}
+
+.product h2 {
+    color: rgb(91, 232, 232);
+}
